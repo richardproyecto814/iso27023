@@ -20,7 +20,7 @@ Route::get('/inicio', function () {
 
 
 Route::get('/', function () {
-    return view('login');
+    return view('login ejemplito');
 });
 
 Route::get('/usuarios', function () {
