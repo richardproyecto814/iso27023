@@ -19,7 +19,7 @@ Route::get('/inicio', function () {
 
 
 
-Route::get('/dash', function () {
+Route::get('/', function () {
     return view('login');
 });
 
