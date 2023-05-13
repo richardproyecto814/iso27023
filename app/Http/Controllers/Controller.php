@@ -11,8 +11,3 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 }
-public function index()
-{
-    $users = User::all();
-    return view('users.index', compact('users'));
-}
