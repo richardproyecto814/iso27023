@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/inicio', function () {
+Route::get('/inicio', function () {s
     return view('index');
 });
 
@@ -132,15 +132,5 @@ Route::get('/responder5', function () {
     return view('responder/mejoras');
 });
 
-Route::get('/categorias', function () {
-    $categorias = [
-        'Gestión de identidad, autenticación y control de acceso (PR.AC)',
-        'Concienciación y capacitación (PR.AT)',
-        'Seguridad de los datos (PR.DS)',
-        'Procesos y procedimientos de protección de la información (PR.IP)',
-        'Mantenimiento (PR.MA)',
-        'Tecnología de protección (PR.PT)'
-    ];
 
-    return response()->json($categorias);
-});
+//  profe borrè una ruta que estaba malss
