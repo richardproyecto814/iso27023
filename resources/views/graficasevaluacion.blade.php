@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+
+			<!-- END HEADER DESKTOP-->
+            <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,12 +12,12 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Tables</title>
+    <title>Forms</title>
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
@@ -37,7 +39,25 @@
 
 <body class="animsition">
     <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo" href="index.html">
+                            <img src="images/icon/logo.png" alt="CoolAdmin" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
 
+        </header>
+        <!-- END HEADER MOBILE-->
 
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar d-none d-lg-block">
@@ -45,16 +65,10 @@
                 <a href="#">
                     <img src="images/icon/logo.png" alt="Cool Admin" />
                 </a>
-                
             </div>
-           
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                    <li>
-                            <a href="chart.html">
-                                <i class="fas fa-chart-bar"></i>HOMEISO-IT</a>
-                        </li>
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>iSO 27032</a>
@@ -76,20 +90,23 @@
                                 </li>
                             </ul>
                         </li>
-                     
+                        <li>
+                            <a href="chart.html">
+                                <i class="fas fa-chart-bar"></i>HOMEISO-IT</a>
+                        </li>
                         <li>
                             <a href="table.html">
                                 <i class="fas fa-table"></i>EMPRESA</a>
                         </li>
                         
-                        <li>
+                        <!--<li>
                             <a href="calendar.html">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
                         <li>
                             <a href="map.html">
                                 <i class="fas fa-map-marker-alt"></i>Maps</a>
-                        </li>
+                        </li>-->
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>REGISTRO USUARIOS</a>
@@ -170,7 +187,7 @@
                                 </button>
                             </form>
                             <div class="header-button">
-                                
+                            
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
@@ -190,7 +207,7 @@
                                                     <h5 class="name">
                                                         <a href="#">Richard Mosquera</a>
                                                     </h5>
-                                                    <span class="email">Chamito.richard@gmail.com</span>
+                                                    <span class="email">richardmosquera@gmail.com</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -202,7 +219,7 @@
                                                     <a href="#">
                                                         <i class="zmdi zmdi-settings"></i>Configuracion</a>
                                                 </div>
-                                               
+                                                
                                             </div>
                                             <div class="account-dropdown__footer">
                                                 <a href="#">
@@ -211,166 +228,200 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
             </header>
-            <!-- END HEADER DESKTOP-->
-            
+           
+                   
+			<!-- MAIN CONTENT-->
+			<div class="main-content">
+				<div class="section__content section__content--p30">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="card">
+									<div class="card-header">
+										<h4>Home Iso 27032</h4>
+									</div>
+									<div class="card">
+									<div class="card-header">
+										<h4>Modulo de Identificacion</h4>
+									</div>
+									<div class="card-body">
+										<p class="muted">Haga una lista de todos los equipos, programas software y datos que use, incluyendo computadoras portátiles, teléfonos inteligentes, tablets y dispositivos utilizados en puntos de venta.
+											</p>
+										<div class="progress mb-2">
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">25%</div>
+										</div>
+										
+										<div class="progress mb-2">
+											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
+											 aria-valuemin="0" aria-valuemax="100">75%</div>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
+											 aria-valuemin="0" aria-valuemax="100">90%</div>
+										</div>
+									</div>
+								</div>
+								</div>
+								<!-- /# card -->
 
-            <!-- MAIN CONTENT-->
-            
-            <div class="main-content">
-                <div class="section__content section__content--p30">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-16">
-                                <div class="table-responsive table--no-card m-b-30">
-                              
-                                <h3 class="title-5 m-b-35">ISO 27032 -> RECUPERAR </h3>
+								<div class="card">
+									<div class="card-header">
+										<h4>Home Iso 27032</h4>
+									</div>
+									<div class="card">
+									<div class="card-header">
+										<h4>Modulo Proteger</h4>
+									</div>
+									<div class="card-body">
+										<p class="muted">Controle quiénes acceden a su red y usan sus computadoras y otros dispositivos.
+										</p>
+										<div class="progress mb-2">
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">5%</div>
+										</div>
+										
+										<div class="progress mb-2">
+											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
+											 aria-valuemin="0" aria-valuemax="100">15%</div>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
+											 aria-valuemin="0" aria-valuemax="100">80%</div>
+										</div>
+									</div>
+								</div>
+								</div>
+								<!-- /# card -->
 
-                                <div class="table-data__tool">
-                                    <div class="table-data__tool-left">
-                                        <div class="rs-select2--light rs-select2--md">
-                                        <select class="js-select2" name="property">
-                                                <option selected="">CATEGORIAS</option>
-                                                <option value="">Planificación de la recuperación (RC.RP)</option>
-                                                <option value="">Mejoras (RC.IM)</option>
-                                                <option value="">Comunicaciones (RC.CO)</option>
-                                                
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                       
-                                        
-                                    </div>
-                                    <div class="table-data__tool-right">
-                                        <button class="au-btn au-btn-icon au-btn--green au-btn--small">
-                                            <i class="zmdi zmdi-plus"></i>Agregar item</button>
-                                        <div class="rs-select2--dark rs-select2--sm rs-select2--dark2">
-                                            <select class="js-select2" name="type">
-                                                <option selected="selected">EXPORTAR</option>
-                                                <option value="">pdf</option>
-                                                <option value="">excel</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="table-responsive table-responsive-data2">
-                                    <table class="table table-data2">
-                                        <thead>
-                                            <tr>
-                                               
-                             
-                                <div class="table-responsive table-responsive-data2">
-                                    <table class="table table-data2">
-                                        <thead>
-                                            <tr>
-                                                <th>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </th>
-                                                <th>Nombre</th>
-                                                <th>Categoria</th>
-                                                <th>Subcategoria</th>
-                                                <th>Evaluacion</th>
-                                                
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Planificación de la recuperación (RC.RP)</span>
-                                                </td>
-                                                <td class="desc">RC.RP-1: El plan de recuperación se ejecuta durante o después de un incidente de seguridad cibernética.</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-                                           
-                                             
-                                                                               
-                                            </tr>
+								<div class="card">
+									<div class="card-header">
+										<h4>Home Iso 27032</h4>
+									</div>
+									<div class="card">
+									<div class="card-header">
+										<h4>Modulo Detectar</h4>
+									</div>
+									<div class="card-body">
+										<p class="muted">Monitoree sus computadoras para controlar si detecta acceso de personal no autorizado a sus computadoras, dispositivos (soportes de almacenamiento de datos de tipo USB) y software.
+											</p>
+										<div class="progress mb-2">
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">25%</div>
+										</div>
+										
+										<div class="progress mb-2">
+											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
+											 aria-valuemin="0" aria-valuemax="100">75%</div>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
+											 aria-valuemin="0" aria-valuemax="100">90%</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							
+							</div>
 
 
-                                         
-                                    </table>
-                                </div>
-                                <!-- END DATA TABLE -->
-                            </div>
-                        </div>
-                        <div class="row m-t-30">
-                            <div class="col-md-12">
-        
-                            </div>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
+							<div class="col-lg-6">
+								<div class="card">
+                                <div class="card-header">
+										<h4>Home Iso 27032</h4>
+									</div>
+									<div class="card-header">
+										<h4>Mosulo Responder</h4>
+									</div>
+									<div class="card">
+									
+									<div class="card-body">
+										<p class="muted">Notificar a los clientes, empleados y otros cuyos datos pudieran estar en riesgo.
+											</p>
+										<div class="progress mb-2">
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">25%</div>
+										</div>
+										
+										<div class="progress mb-2">
+											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
+											 aria-valuemin="0" aria-valuemax="100">75%</div>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
+											 aria-valuemin="0" aria-valuemax="100">90%</div>
+										</div>
+									</div>
+								</div>
+								</div>
+								<!-- /# card -->
 
-    </div>
+								<div class="card">
+                                <div class="card-header">
+										<h4>Home Iso 27032</h4>
+									</div>
+									<div class="card-header">
+										<h4>Modulo Recuperar</h4>
+									</div>
+									<div class="card-body">
+										<p class="muted">Repare y restaure los equipos y las partes de su red que resultaron afectados.
+											</p>
+										<div class="progress mb-2">
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">25%</div>
+										</div>
+										
+										<div class="progress mb-2">
+											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
+											 aria-valuemin="0" aria-valuemax="100">75%</div>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
+											 aria-valuemin="0" aria-valuemax="100">90%</div>
+										</div>
+									</div>
+								</div>
+								<!-- /# card -->
 
-    <!-- Jquery JS-->
-    <script src="vendor/jquery-3.2.1.min.js"></script>
-    <!-- Bootstrap JS-->
-    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
-    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
-    <!-- Vendor JS       -->
-    <script src="vendor/slick/slick.min.js">
-    </script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script src="vendor/animsition/animsition.min.js"></script>
-    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
-    </script>
-    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
-    <script src="vendor/counter-up/jquery.counterup.min.js">
-    </script>
-    <script src="vendor/circle-progress/circle-progress.min.js"></script>
-    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js">
-    </script>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END PAGE CONTAINER-->
 
-    <!-- Main JS-->
-    <script src="js/main.js"></script>
+	</div>
+
+	<!-- Jquery JS-->
+	<script src="vendor/jquery-3.2.1.min.js"></script>
+	<!-- Bootstrap JS-->
+	<script src="vendor/bootstrap-4.1/popper.min.js"></script>
+	<script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+	<!-- Vendor JS       -->
+	<script src="vendor/slick/slick.min.js">
+	</script>
+	<script src="vendor/wow/wow.min.js"></script>
+	<script src="vendor/animsition/animsition.min.js"></script>
+	<script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+	</script>
+	<script src="vendor/counter-up/jquery.waypoints.min.js"></script>
+	<script src="vendor/counter-up/jquery.counterup.min.js">
+	</script>
+	<script src="vendor/circle-progress/circle-progress.min.js"></script>
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+	<script src="vendor/chartjs/Chart.bundle.min.js"></script>
+	<script src="vendor/select2/select2.min.js">
+	</script>
+
+	<!-- Main JS-->
+	<script src="js/main.js"></script>
 
 </body>
 

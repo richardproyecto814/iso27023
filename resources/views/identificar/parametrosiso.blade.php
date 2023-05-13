@@ -275,8 +275,8 @@
                                     <i class="zmdi zmdi-search"></i>
                                 </button>
                             </form>
-                            <div class="header-button">
-                                <div class="noti-wrap">
+                           <div class="header-button">
+                               <!-- <div class="noti-wrap">
                                     <div class="noti__item js-item-menu">
                                         <i class="zmdi zmdi-comment-more"></i>
                                         <span class="quantity">1</span>
@@ -387,14 +387,14 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>-->
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="image">
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">john doe</a>
+                                            <a class="js-acc-btn" href="#">Richard Mosquera</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -443,108 +443,86 @@
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <div class="table-responsive table--no-card m-b-30">
-                                  
-                        <div class="row m-t-30">
-                            <div class="col-md-18">
                             <div class="col-lg-16">
-                                <!-- DATA TABLE-->
-                                <div class="table-responsive m-b-40">
-                                    <table class="table table-borderless table-data3">
+                                <div class="table-responsive table--no-card m-b-30">
+                              
+                                <h3 class="title-5 m-b-35">HOMEIT-ISO </h3>
+                             
+                                <div class="table-responsive table-responsive-data2">
+                                    <table class="table table-data2">
                                         <thead>
                                             <tr>
-                                                
-                                                <th>Id</th>
-                                                <th>Nombres</th>
-                                                <th>Apellidos</th>
-                                                <th>Cedula</th>
-                                                <th>Correo Electronico</th>
-                                                <th>Celular</th>
-                                                <th>estado</th>
-
+                                                <th>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </th>
+                                                <th>Nombre Norma</th>
+                                                <th>Descripcion</th>
+                                                <th>Fecha Publicacion</th>
+                                                <th>Version Norma</th>
+                                                <th>Estado</th>
+                                                <th></th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>001</td>
-                                                <td>Richard Alexander</td>
-                                                <td>Mosquera Chamorro</td>
-                                                <td>1088244651</td>
-                                                <td>Chamito.s@gmail.com</td>
-                                                <td>3185752125</td>
-                                                <td class="process">Activo</td>
+                                            <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>ISO/IEC 27032:2012</td>
+                                                <td>
+                                                    <span class="block-email">Directrices para la Ciberseguridad</span>
+                                                </td>
+                                                <td class="desc">publicada en julio del 2012</td>
+                                                <td>Vr 01</td>
+                                                <td>
+                                                    <span class="status--process">Activa</span>
+                                                </td>
+                                                
+                                               
                                             </tr>
-                                            <tr>
-                                                < <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td class="process">Activo</td>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>ISO/IEC 27032:2012</td>
+                                                <td>
+                                                    <span class="block-email">Directrices para la Ciberseguridad</span>
+                                                </td>
+                                                <td class="desc">publicada en julio del 2012</td>
+                                                <td>Vr 01</td>
+                                                <td>
+                                                    <span class="status--process">Activa</span>
+                                                </td>
+                                              
                                             </tr>
-                                            <tr>
-                                            <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td class="process">Activo</td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td class="process">Activo</td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td class="process">Activo</td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td class="process">Activo</td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td class="process">Activo</td>
-                                            </tr>
-                                            <tr>
-                                            <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td class="process">Activo</td>
-                                            </tr>
-                                        </tbody>
+                                       
                                     </table>
-                                
-                                <!-- END DATA TABLE-->
-                            
+                                </div>
+                                <!-- END DATA TABLE -->
+                            </div>
                         </div>
-                      
+                        <div class="row m-t-30">
+                            <div class="col-md-12">
+        
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="copyright">
+                                    <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

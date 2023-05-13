@@ -37,7 +37,7 @@
 
 <body class="animsition">
     <div class="page-wrapper">
-
+    
 
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar d-none d-lg-block">
@@ -110,7 +110,8 @@
                                 <i class="fas fa-tachometer-alt"></i>INFORME EVALUACION</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">IDENTIFICACION</a>
+                                    <!--<a href="index.html">IDENTIFICACION</a>-->
+                                    <a href="{{ url('/identificar') }}">Identificar</a>
                                 </li>
                                 <li>
                                     <a href="index2.html">PROTECION</a>
@@ -228,15 +229,15 @@
                             <div class="col-lg-16">
                                 <div class="table-responsive table--no-card m-b-30">
                               
-                                <h3 class="title-5 m-b-35">ISO 27032 -> PROTEGER -> Concienciación y capacitación </h3>
+                                <h3 class="title-5 m-b-35">ISO 27032 -> IDENTIFICAR  </h3>
 
                                 <div class="table-data__tool">
                                     <div class="table-data__tool-left">
                                         <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
                                                 <option selected="">CATEGORIAS</option>
-                                                <option value="">Gestión de identidad, autenticación y control de acceso (PR.AC)</option>
-                                                <option value="">Concienciación y capacitación (PR.AT)</option>
+                                                <option value="">Gestión de activos (ID.AM)</option> 
+                                                <option value="">Entorno empresarial (ID.BE)</option>
                                                 <option value="">Gobernanza (ID.GV)</option>
                                                 <option value="">Evaluación de riesgos (ID.RA)</option>
                                                 <option value="">Estrategia de gestión de riesgos (ID.RM)</option>
@@ -291,11 +292,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
+                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
                                                 </td>
-                                                <td class="desc">PR.AT-1: Todos los usuarios están informados y capacitados.</td>
+                                                <td class="desc">ID.AM-1: Los dispositivos y sistemas físicos dentro de la organización están inventariados.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -334,11 +335,11 @@
                                                     </label>
                                                 </td>
                                              
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
+                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
                                                 </td>
-                                                <td class="desc">PR.AT-2: Los usuarios privilegiados comprenden sus roles y responsabilidades.</td>
+                                                <td class="desc">ID.AM-2: Las plataformas de software y las aplicaciones dentro de la organización están inventariadas.</td>
                                                 
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
@@ -380,11 +381,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
+                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
                                                 </td>
-                                                <td class="desc">PR.AT-3: Los terceros interesados (por ejemplo, proveedores, clientes, socios) comprenden sus roles y responsabilidades.</td>
+                                                <td class="desc">ID.AM-3: La comunicación organizacional y los flujos de datos están mapeados.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -422,11 +423,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
+                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
                                                 </td>
-                                                <td class="desc">PR.AT-4: Los ejecutivos superiores comprenden sus roles y responsabilidades.</td>
+                                                <td class="desc">ID.AM-4: Los sistemas de información externos están catalogados.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -466,11 +467,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
+                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
                                                 </td>
-                                                <td class="desc">PR.AT-5: El personal de seguridad física y cibernética comprende sus roles y responsabilidades.</td>
+                                                <td class="desc">ID.AM-5: Los recursos (por ejemplo, hardware, dispositivos, datos, tiempo, personal y software) se priorizan en función de su clasificación, criticidad y valor comercial.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -501,101 +502,51 @@
                                                 </td>                                                
                                             </tr>
 
-
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
-                                                </td>
-                                                <td class="desc">PR.AC-6: Las identidades son verificadas y vinculadas a credenciales y afirmadas en las interacciones.</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                        
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-
-
-
-
-
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Gestión de identidad, autenticación y control de acceso (PR.AC)</span>
-                                                </td>
-                                                <td class="desc">PR.AC-7: Se autentican los usuarios, dispositivos y otros activos (por ejemplo, autenticación de un solo factor o múltiples factores) acorde al riesgo de la transacción (por ejemplo, riesgos de seguridad y privacidad de individuos y otros riesgos para las organizaciones).</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                        
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-
-
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr class="tr-shadow">                                  
+                                            </tr>
+
+                                            <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>IDENTIFICAR ID</td>
+                                                <td>
+                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
+                                                </td>
+                                                <td class="desc">ID.AM-6: Los roles y las responsabilidades de la seguridad cibernética para toda la fuerza de trabajo y terceros interesados</td>
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                        
+                                                    </div>
+                                                </td>                                                
                                             </tr>
                                        
                                     </table>
