@@ -96,7 +96,7 @@
                                      <a href="{{ url('/identificar') }}">Gestión del riesgo de la cadena de suministro </a> 
                                      </a>
                                     
-                               <!-- </li>
+                                </li>
                                 <li>
                                       <a href="{{ url('/proteger') }}">PROTEGER</a>
                                 </li>
@@ -108,7 +108,7 @@
                                 </li>
                                 <li>
                                      <a href="{{ url('/recuperar') }}">RECUPERAR</a>
-                                </li>-->
+                                </li>
                             </ul>
                         </li>
 

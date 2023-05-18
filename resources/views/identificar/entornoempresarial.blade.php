@@ -221,6 +221,8 @@
             
 
             <!-- MAIN CONTENT-->
+
+            
             
             <div class="main-content">
                 <div class="section__content section__content--p30">
@@ -234,15 +236,7 @@
                                 <div class="table-data__tool">
                                     <div class="table-data__tool-left">
                                         <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="">CATEGORIAS</option>
-                                                <option value="">Gestión de activos (ID.AM)</option>
-                                                <option value="">Entorno empresarial (ID.BE)</option>
-                                                <option value="">Gobernanza (ID.GV)</option>
-                                                <option value="">Evaluación de riesgos (ID.RA)</option>
-                                                <option value="">Estrategia de gestión de riesgos (ID.RM)</option>
-                                                <option value="">Gestión del riesgo de la cadena de suministro (ID.SC)</option>
-                                            </select>
+                                           
                                             <div class="dropDownSelect2"></div>
                                         </div>
                                        

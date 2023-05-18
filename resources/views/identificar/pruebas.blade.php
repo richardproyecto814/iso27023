@@ -51,11 +51,11 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                    <li>
+                     <li>
                             <a href="chart.html">
                                 <i class="fas fa-chart-bar"></i>HOMEISO-IT</a>
-                        </li>
-                        <li class="has-sub">
+                         </li>
+                          <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>iSO 27032</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
@@ -229,26 +229,20 @@
                             <div class="col-lg-16">
                                 <div class="table-responsive table--no-card m-b-30">
                               
-                                <h3 class="title-5 m-b-35">ISO 27032 -> IDENTIFICAR  </h3>
+                                 <h3 class="title-5 m-b-35">ISO 27032 -> IDENTIFICAR  </h3>
 
-                                <div class="table-data__tool">
-                                    <div class="table-data__tool-left">
-                                        <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="">CATEGORIAS</option>
-                                                <option value="">Gestión de activos (ID.AM)</option> 
-                                                <option value="">Entorno empresarial (ID.BE)</option>
-                                                <option value="">Gobernanza (ID.GV)</option>
-                                                <option value="">Evaluación de riesgos (ID.RA)</option>
-                                                <option value="">Estrategia de gestión de riesgos (ID.RM)</option>
-                                                <option value="">Gestión del riesgo de la cadena de suministro (ID.SC)</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                       
-                                        
-                                    </div>
-                                    <div class="table-data__tool-right">
+                                
+                                    
+
+
+                                
+								    <div class="card">
+									        <div   div class="card-header">
+										        
+
+                                                <div class="table-data__tool">
+                                                <div class="table-data__tool-left"></div>
+                                            <div class="table-data__tool-right">
                                         <button class="au-btn au-btn-icon au-btn--green au-btn--small">
                                             <i class="zmdi zmdi-plus"></i>Agregar item</button>
                                         <div class="rs-select2--dark rs-select2--sm rs-select2--dark2">
@@ -260,6 +254,198 @@
                                             <div class="dropDownSelect2"></div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="table-responsive table-responsive-data2">
+                                    <table class="table table-data2">
+   							    </div>
+									    <div class="card-body">
+										    <p class="text-muted m-b-15"></p>
+
+										    <ul class="nav nav-tabs" id="myTab" role="tablist">
+											    <li class="nav-item">
+												<a class="nav-link active" id="home-tab" data-toggle="tab" href="#identificar1" role="tab" aria-controls="home" aria-selected="true">Activos</a>
+											    </li>
+											    <li class="nav-item">
+												<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">gestion</a>
+											    </li>
+											    <li class="nav-item">
+												<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Menu 2</a>
+											    </li>
+										    </ul>
+										<div class="tab-content pl-3 p-1" id="myTabContent">
+											<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+												
+											</div>
+											<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+												<h3>gestion1</h3>
+												<p><div class="table-responsive table-responsive-data2">
+                                    <table class="table table-data2">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </th>
+                                                <th>Nombre</th>
+                                                <th>Categoria</th>
+                                                <th>Subcategoria</th>
+                                                <th>Evaluacion</th>
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>IDENTIFICAR ID</td>
+                                                <td>
+                                                    <span class="block-email">Estrategia de gestión de riesgos (ID.RM)</span>
+                                                </td>
+                                                <td class="desc">ID.RM-1: Los actores de la organización establecen, gestionan y acuerdan los procesos de gestión de riesgos.</td>
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                       
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                               <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                             
+                                                <td>IDENTIFICAR ID</td>
+                                                <td>
+                                                    <span class="block-email">Estrategia de gestión de riesgos (ID.RM)</span>
+                                                </td>
+                                                <td class="desc">ID.RA-2: La inteligencia de amenazas cibernéticas se recibe de foros y fuentes de intercambio de información.</td>
+                                                
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                       
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                               
+
+                                            <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>IDENTIFICAR ID</td>
+                                                <td>
+                                                    <span class="block-email">Estrategia de gestión de riesgos (ID.RM)</span>
+                                                </td>
+                                                <td class="desc">ID.RA-3: Se identifican y se documentan las amenazas, tanto internas como externas.</td>
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                        
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+
+                                            
+                                </div></p>
+											</div>
+											<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+												<h3>Menu 2</h3>
+												<p>Some content here.</p>
+											</div>
+										</div>
+
+
+									</div>
+								
+							
+
+
+                     
+                                        
+                                </div>
+                                    
                                 </div>
                                 <div class="table-responsive table-responsive-data2">
                                     <table class="table table-data2">

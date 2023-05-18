@@ -88,6 +88,10 @@ Route::get('/proteger6', function () {
     return view('proteger/tecnologiaproteccion');
 });
 
+Route::get('/proteger8', function () {
+    return view('proteger7');
+});
+
 Route::get('/recuperar', function () {
     return view('recuperar/recuperacion');
 });
@@ -106,6 +110,10 @@ Route::get('/detectar', function () {
 
 Route::get('/detectar2', function () {
     return view('detectar/monitoreoseguridad');
+});
+
+Route::get('/detectar8', function () {
+    return view('detectar7');
 });
 
 Route::get('/detectar3', function () {
@@ -132,3 +140,10 @@ Route::get('/responder5', function () {
     return view('responder/mejoras');
 });
 
+Route::get('/prueba', function () {
+    return view('identificar/pruebas');
+});
+
+Route::get('/identificarnuevo', function () {
+    return view('identificar7');
+});

@@ -347,22 +347,11 @@
                                 <h3 class="title-5 m-b-35">ISO 27032 -> IDENTIFICAR </h3>
 
                                 <div class="table-data__tool">
-                                    <div class="table-data__tool-left">
-                                        <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="">CATEGORIAS</option>
-                                                <option value="">Gestión de activos (ID.AM)</option>
-                                                <option value="">Entorno empresarial (ID.BE)</option>
-                                                <option value="">Gobernanza (ID.GV)</option>
-                                                <option value="">Evaluación de riesgos (ID.RA)</option>
-                                                <option value="">Estrategia de gestión de riesgos (ID.RM)</option>
-                                                <option value="">Gestión del riesgo de la cadena de suministro (ID.SC)</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
+                                    <div class="table-data__tool-left"></div>
                                        
-                                        
-                                    </div>
+                                       
+                                         
+                                   
                                     <div class="table-data__tool-right">
                                         <button class="au-btn au-btn-icon au-btn--green au-btn--small">
                                             <i class="zmdi zmdi-plus"></i>Agregar item</button>
@@ -531,7 +520,7 @@
                                                 </td>                                                
                                             </tr>
 
-                                            
+                                        </table>     
                                 </div>
                                 <!-- END DATA TABLE -->
                             </div>
