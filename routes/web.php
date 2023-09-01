@@ -34,8 +34,13 @@ Route::get('/crearusuario', function () {
 Route::get('/menu', function () {
     return view('layoutmenu');
 });
-Route::get('/identificar', function () {
-    return view('identificar/gestiondeactivos');
+
+Route::get('/parametros', function () {
+    return view('Parámetros27032');
+
+});    
+/*
+
 });
 Route::get('/identificar1', function () {
     return view('identificar/entornoempresarial');
@@ -56,13 +61,15 @@ Route::get('/identificar5', function () {
     return view('identificar/gestiondelriesgo');
 });
 
-Route::get('/menu1', function () {
-    return view('/graficasevaluacion');
-});
 
 Route::get('/identificar6', function () {
     return view('identificar/gestionriesgosuministros');
+}); */
+
+Route::get('/menu1', function () {
+    return view('/graficasevaluacion');
 });
+/*
 
 Route::get('/proteger', function () {
     return view('proteger/gestionidentidad');
@@ -87,15 +94,16 @@ Route::get('/proteger5', function () {
 Route::get('/proteger6', function () {
     return view('proteger/tecnologiaproteccion');
 });
-
+*/
 Route::get('/proteger8', function () {
     return view('proteger7');
 });
 
 Route::get('/recuperar', function () {
-    return view('recuperar/recuperacion');
+    return view('recuperar7');
 });
 
+/*
 Route::get('/recuperar2', function () {
     return view('recuperar/mejorar');
 });
@@ -112,18 +120,20 @@ Route::get('/detectar2', function () {
     return view('detectar/monitoreoseguridad');
 });
 
-Route::get('/detectar8', function () {
-    return view('detectar7');
-});
+
 
 Route::get('/detectar3', function () {
     return view('detectar/procesosdetenccion');
 });
 
-Route::get('/responder', function () {
-    return view('responder/planificacion');
+Route::get('/detectar8', function () {
+    return view('detectar7');
 });
-
+*/
+Route::get('/responder', function () {
+    return view('responder7');
+});
+/*
 Route::get('/responder2', function () {
     return view('responder/comunicacion');
 });
@@ -140,10 +150,27 @@ Route::get('/responder5', function () {
     return view('responder/mejoras');
 });
 
-Route::get('/prueba', function () {
-    return view('identificar/pruebas');
-});
+*/
+
+
 
 Route::get('/identificarnuevo', function () {
     return view('identificar7');
+});
+
+
+Route::get('/ayuda', function () {
+    return view('ayuda');
+});
+
+Route::get('/credenciales', function () {
+    return view('credenciales');
+});
+
+Route::get('/HOMEISO', function () {
+    return view('homeiso');
+});
+
+Route::get('/detectar8', function () {
+    return view('detectar7');
 });

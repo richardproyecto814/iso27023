@@ -245,7 +245,7 @@
                                 <div class="card">
                                     <div class="card-header">
                                         <strong>Registro Usuario </strong>
-                                        <small> Form</small>
+                                  
                                     </div>
                                     <div class="card-body card-block">
                                         <div class="form-group">
@@ -265,6 +265,19 @@
                                                 <div class="form-group">
                                                     <label for="email" class=" form-control-label">Correo electronico </label>
                                                     <input type="text" id="email" placeholder="Ingrese su Correo electronico " class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-8">
+                                                <div class="form-group">
+                                                    <label for="hf-password" class=" form-control-label">Tel/Celular</label>
+                                                    <input type="text" id="hf-password" placeholder="Ingrese su Numero de celular" class="form-control">
+                                                </div>
+                                            </div>
+                                         
+                                            <div class="col-8">
+                                                <div class="form-group">
+                                                    <label for="hf-password" class=" form-control-label">Fecha de Creacion</label>
+                                                    <input type="text" id="hf-password" placeholder="fecha" class="form-control">
                                                 </div>
                                             </div>
                                             <div class="col-8">

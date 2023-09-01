@@ -462,6 +462,10 @@
                                                 <th>Correo Electronico</th>
                                                 <th>Celular</th>
                                                 <th>estado</th>
+                                                <th>Funcion</th>
+                                                <th>Fecha Creacion</th>
+                                                <th>Contraseña</th>
+
 
                                             </tr>
                                         </thead>
@@ -474,6 +478,9 @@
                                                 <td>Chamito.s@gmail.com</td>
                                                 <td>3185752125</td>
                                                 <td class="process">Activo</td>
+                                                <td>Administrador</td>
+                                                <td>Dia-Mes-Año</td>
+                                                <td>*************</td>
                                             </tr>
                                             <tr>
                                                 < <td></td>
@@ -483,6 +490,9 @@
                                                 <td></td>
                                                 <td></td>
                                                 <td class="process">Activo</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                             <td></td>
@@ -492,6 +502,9 @@
                                                 <td></td>
                                                 <td></td>
                                                 <td class="process">Activo</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                             <td></td>
@@ -501,6 +514,9 @@
                                                 <td></td>
                                                 <td></td>
                                                 <td class="process">Activo</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                             <td></td>
@@ -510,6 +526,9 @@
                                                 <td></td>
                                                 <td></td>
                                                 <td class="process">Activo</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                             <td></td>
@@ -519,6 +538,9 @@
                                                 <td></td>
                                                 <td></td>
                                                 <td class="process">Activo</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                             <td></td>
@@ -528,6 +550,9 @@
                                                 <td></td>
                                                 <td></td>
                                                 <td class="process">Activo</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
                                             </tr>
                                             <tr>
                                             <td></td>
@@ -537,6 +562,9 @@
                                                 <td></td>
                                                 <td></td>
                                                 <td class="process">Activo</td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
                                             </tr>
                                         </tbody>
                                     </table>

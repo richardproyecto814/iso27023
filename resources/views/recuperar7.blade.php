@@ -64,17 +64,17 @@
                                     <a href="{{ url('/identificarnuevo') }}">IDENTIFICAR</a>
                                 </li>
                                 <li>
-                                <a href="{{ url('/proteger8') }}">PROTEGER</a>
+                                    <a href="{{ url('/proteger8') }}">PROTEGER</a>
                                 </li>
 
                                 <li>
-                                      <a href="{{ url('/detectar8') }}">DETECTAR</a>
+                                      <a href="{{ url('/detectar') }}">DETECTAR</a>
                                 </li>
                                 <li>
                                      <a href="{{ url('/responder') }}">RESPONDER</a>
                                 </li>
                                 <li>
-                                     <a href="{{ url('/recuperar7') }}">RECUPERAR</a>
+                                     <a href="{{ url('/recuperar') }}">RECUPERAR</a>
                                 </li>
                             </ul>
                         </li>
@@ -109,14 +109,14 @@
                                 <a href="{{ url('/identificarnuevo') }}">IDENTIFICAR</a>
                             </li>
                             <li>
-                                <a href="{{ url('/identificarnu') }}">PROTEGER</a>
+                                <a href="{{ url('/proteger8') }}">PROTEGER</a>
                             </li>
 
                             <li>
-                                  <a href="{{ url('/detectar') }}">DETECTAR</a>
+                                  <a href="{{ url('/detectar8') }}">DETECTAR</a>
                             </li>
                             <li>
-                                 <a href="{{ url('/responder') }}">RESPONDER</a>
+                                 <a href="{{ url('/responder8') }}">RESPONDER</a>
                             </li>
                             <li>
                                  <a href="{{ url('/recuperar') }}">RECUPERAR</a>
@@ -257,7 +257,7 @@
 					<div class="card">
                        <tr class="tr-shadow">
                     	<div class="card-header">
-								<h4>ISO 27032 -> PROTEGER </h4>
+								<h4>ISO 27032 -> RECUPERAR </h4>
                        </tr>
 							</div>
             
@@ -268,17 +268,12 @@
                                        
 											<div class="nav nav-pills mb-3" id="nav-tab" role="tablist">
 													<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
-													 aria-selected="true">Gestión de identidad (PR.AC)</a>
+													 aria-selected="true">Planificación de la recuperación (RC.RP)</a>
 													<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
-													 aria-selected="false">Concienciación-capacitación (PR.AT)</a>
+													 aria-selected="false">Mejoras (RC.IM)</a>
 													<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact"
-													 aria-selected="false">Seguridad-datos (PR.DS)</a>
-                                                     <a class="nav-item nav-link" id="nav-contact1-tab" data-toggle="tab" href="#nav-contact1" role="tab" aria-controls="nav-contact1"
-													 aria-selected="false">Procesos (PR.IP)</a>
-                                                     <a class="nav-item nav-link" id="nav-contact2-tab" data-toggle="tab" href="#nav-contact2" role="tab" aria-controls="nav-contact2"
-													 aria-selected="false">Mantenimiento (PR.MA)</a>
-                                                     <a class="nav-item nav-link" id="nav-contact3-tab" data-toggle="tab" href="#nav-contact3" role="tab" aria-controls="nav-contact3"
-													 aria-selected="false">Tecnología de protección (PR.PT)</a>
+													 aria-selected="false">Comunicaciones (RC.CO)</a>
+                                                    
 											</div>
 											</nav>
                                           
@@ -315,11 +310,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>RECUPERAR (RC)</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de identidad, autenticación y control de acceso (PR.AC)</span>
+                                                    <span class="block-email">Planificación de la recuperación (RC.RP)</span>
                                                 </td>
-                                                <td class="desc">PR.AC-1: Las identidades y credenciales se emiten, se administran, se verifican, se revocan y se auditan para los dispositivos, usuarios y procesos autorizados.</td>
+                                                <td class="desc">RC.RP-1: El plan de recuperación se ejecuta durante o después de un incidente de seguridad cibernética.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -351,18 +346,13 @@
                                             </tr>
                                             <tr class="spacer"></tr>
                                             <tr class="tr-shadow">
-                                               <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
+                                              
                                              
-                                                <td>PROTEGER (PR)</td>
+                                               <!-- <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de identidad, autenticación y control de acceso (PR.AC)</span>
+                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
                                                 </td>
-                                                <td class="desc">PR.AC-2: Se gestiona y se protege el acceso físico a los activos.</td>
+                                                <td class="desc">ID.AM-2: Las plataformas de software y las aplicaciones dentro de la organización están inventariadas.</td>
                                                 
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
@@ -404,11 +394,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de identidad, autenticación y control de acceso (PR.AC)</span>
+                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
                                                 </td>
-                                                <td class="desc">PR.AC-3: Se gestiona el acceso remoto.</td>
+                                                <td class="desc">ID.AM-3: La comunicación organizacional y los flujos de datos están mapeados.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -446,11 +436,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de identidad, autenticación y control de acceso (PR.AC)</span>
+                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
                                                 </td>
-                                                <td class="desc">PR.AC-4: Se gestionan los permisos y autorizaciones de acceso con incorporación de los principios de menor privilegio y separación de funciones.</td>
+                                                <td class="desc">ID.AM-4: Los sistemas de información externos están catalogados.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -490,11 +480,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de identidad, autenticación y control de acceso (PR.AC)</span>
+                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
                                                 </td>
-                                                <td class="desc">PR.AC-5: Se protege la integridad de la red (por ejemplo, segregación de la red, segmentación de la red).</td>
+                                                <td class="desc">ID.AM-5: Los recursos (por ejemplo, hardware, dispositivos, datos, tiempo, personal y software) se priorizan en función de su clasificación, criticidad y valor comercial.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -525,7 +515,10 @@
                                                 </td>                                                
                                             </tr>
 
-
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">                                  
+                                            </tr>
 
                                             <tr class="tr-shadow">
                                                 <td>
@@ -534,11 +527,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de identidad, autenticación y control de acceso (PR.AC)</span>
+                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
                                                 </td>
-                                                <td class="desc">PR.AC-6: Las identidades son verificadas y vinculadas a credenciales y afirmadas en las interacciones.</td>
+                                                <td class="desc">ID.AM-6: Los roles y las responsabilidades de la seguridad cibernética para toda la fuerza de trabajo y terceros interesados</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -565,63 +558,18 @@
                                                             <i class="zmdi zmdi-delete"></i>
                                                         </button>
                                                         
-                                                    </div>
-                                                </td>                                                
+                                                    </div>-->
+                                                </td>  
+											                                              
                                             </tr>
-
-
-
-
-
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Gestión de identidad, autenticación y control de acceso (PR.AC)</span>
-                                                </td>
-                                                <td class="desc">PR.AC-7: Se autentican los usuarios, dispositivos y otros activos (por ejemplo, autenticación de un solo factor o múltiples factores) acorde al riesgo de la transacción (por ejemplo, riesgos de seguridad y privacidad de individuos y otros riesgos para las organizaciones).</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                        
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
+											
                                        
                                     </table>
-                                </div>      
+                                </div> 
+											     
                              
                                </p>
-								</div>
-												
+								</div>	
                                 
                                 
                                 
@@ -658,11 +606,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>RECUPERAR (RC)</td>
                                                 <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
+                                                    <span class="block-email">Mejoras (RC.IM)</span>
                                                 </td>
-                                                <td class="desc">PR.AT-1: Todos los usuarios están informados y capacitados.</td>
+                                                <td class="desc">RC.IM-1: Los planes de recuperación incorporan las lecciones aprendidas.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -701,11 +649,11 @@
                                                     </label>
                                                 </td>
                                              
-                                                <td>PROTEGER (PR)</td>
+                                                <td>RECUPERAR (RC)</td>
                                                 <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
+                                                    <span class="block-email">Mejoras (RC.IM)</span>
                                                 </td>
-                                                <td class="desc">PR.AT-2: Los usuarios privilegiados comprenden sus roles y responsabilidades.</td>
+                                                <td class="desc">RC.IM-2: Se actualizan las estrategias de recuperación.</td>
                                                 
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
@@ -747,11 +695,12 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <!--
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
+                                                    <span class="block-email">Entorno empresarial (ID.BE)</span>
                                                 </td>
-                                                <td class="desc">PR.AT-3: Los terceros interesados (por ejemplo, proveedores, clientes, socios) comprenden sus roles y responsabilidades.</td>
+                                                <td class="desc">ID.BE-3: Se establecen y se comunican las prioridades para la misión, los objetivos y las actividades de la organización.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -788,12 +737,12 @@
                                                         <input type="checkbox">
                                                         <span class="au-checkmark"></span>
                                                     </label>
-                                                </td>
-                                                <td>PROTEGER (PR)</td>
+                                                </td>-->
+                                                <!--<td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
+                                                    <span class="block-email">Entorno empresarial (ID.BE)</span>
                                                 </td>
-                                                <td class="desc">PR.AT-4: Los ejecutivos superiores comprenden sus roles y responsabilidades.</td>
+                                                <td class="desc">ID.BE-4: Se establecen las dependencias y funciones fundamentales para la entrega de servicios críticos.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -833,11 +782,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
+                                                    <span class="block-email">Entorno empresarial (ID.BE)</span>
                                                 </td>
-                                                <td class="desc">PR.AT-5: El personal de seguridad física y cibernética comprende sus roles y responsabilidades.</td>
+                                                <td class="desc">ID.BE-5: Los requisitos de resiliencia para respaldar la entrega de servicios críticos se establecen para todos los estados operativos (p. ej. bajo coacción o ataque, durante la recuperación y operaciones normales).</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -865,99 +814,8 @@
                                                         </button>
                                                        
                                                     </div>
-                                                </td>                                                
+                                                </td> -->                                               
                                             </tr>
-
-
-
-                                            <!--<tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Concienciación y capacitación (PR.AT)</span>
-                                                </td>
-                                                <td class="desc">PR.AC-6: Las identidades son verificadas y vinculadas a credenciales y afirmadas en las interacciones.</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                        
-                                                    </div>
-                                                </td>                                                
-                                            </tr>-->
-
-
-
-
-
-
-                                           <!-- <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Gestión de identidad, autenticación y control de acceso (PR.AC)</span>
-                                                </td>
-                                                <td class="desc">PR.AC-7: Se autentican los usuarios, dispositivos y otros activos (por ejemplo, autenticación de un solo factor o múltiples factores) acorde al riesgo de la transacción (por ejemplo, riesgos de seguridad y privacidad de individuos y otros riesgos para las organizaciones).</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>-->
 
                                             </tr>
                                             <tr class="spacer"></tr>
@@ -993,11 +851,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Seguridad de los datos (PR.DS)</span>
+                                                    <span class="block-email">Gobernanza (ID.GV)</span>
                                                 </td>
-                                                <td class="desc">PR.DS-1: Los datos en reposo están protegidos.</td>
+                                                <td class="desc">ID.GV-1: Se establece y se comunica la política de seguridad cibernética organizacional.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -1036,11 +894,11 @@
                                                     </label>
                                                 </td>
                                              
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Seguridad de los datos (PR.DS)</span>
+                                                    <span class="block-email">Gobernanza (ID.GV)</span>
                                                 </td>
-                                                <td class="desc">PR.DS-2: Los datos en tránsito están protegidos.</td>
+                                                <td class="desc">ID.GV-2: Los roles y las responsabilidades de seguridad cibernética están coordinados y alineados con roles internos y socios externos.</td>
                                                 
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
@@ -1082,11 +940,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Seguridad de los datos (PR.DS)</span>
+                                                    <span class="block-email">Gobernanza (ID.GV)</span>
                                                 </td>
-                                                <td class="desc">PR.DS-3: Los activos se gestionan formalmente durante la eliminación, las transferencias y la disposición.</td>
+                                                <td class="desc">ID.GV-3: Se comprenden y se gestionan los requisitos legales y regulatorios con respecto a la seguridad cibernética, incluidas las obligaciones de privacidad y libertades civiles.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -1124,150 +982,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Seguridad de los datos (PR.DS)</span>
+                                                    <span class="block-email">Gobernanza (ID.GV)</span>
                                                 </td>
-                                                <td class="desc">PR.DS-4: Se mantiene una capacidad adecuada para asegurar la disponibilidad.</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                        
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-
-
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Seguridad de los datos (PR.DS)</span>
-                                                </td>
-                                                <td class="desc"> PR.DS-5: Se implementan protecciones contra las filtraciones de datos.</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-
-                                            </tr>
-
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Seguridad de los datos (PR.DS)</span>
-                                                </td>
-                                                <td class="desc">PR.DS-6: Se utilizan mecanismos de comprobación de la integridad para verificar el software, el firmware y la integridad de la información.</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-
-                                            </tr>
-
-
-
-                                            <tr class="spacer"></tr>
-                                            <tr class="tr-shadow">                                  
-                                            </tr>
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Seguridad de los datos (PR.DS)</span>
-                                                </td>
-                                                <td class="desc">PR.DS-7: Los entornos de desarrollo y prueba(s) están separados del entorno de producción.</td>
+                                                <td class="desc">ID.GV-4: Los procesos de gobernanza y gestión de riesgos abordan los riesgos de seguridad cibernética.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -1332,11 +1051,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
+                                                    <span class="block-email">Evaluación de riesgos (ID.RA)</span>
                                                 </td>
-                                                <td class="desc">PR.IP-1: Se crea y se mantiene una configuración de base de los sistemas de control industrial y de tecnología de la información con incorporación de los principios de seguridad (por ejemplo, el concepto de funcionalidad mínima).</td>
+                                                <td class="desc">ID.RA-1: Se identifican y se documentan las vulnerabilidades de los activos.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -1375,11 +1094,11 @@
                                                     </label>
                                                 </td>
                                              
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
+                                                    <span class="block-email">Evaluación de riesgos (ID.RA)</span>
                                                 </td>
-                                                <td class="desc">PR.IP-2: Se implementa un ciclo de vida de desarrollo del sistema para gestionar los sistemas.</td>
+                                                <td class="desc">ID.RA-2: La inteligencia de amenazas cibernéticas se recibe de foros y fuentes de intercambio de información.</td>
                                                 
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
@@ -1421,11 +1140,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
+                                                    <span class="block-email">Evaluación de riesgos (ID.RA)</span>
                                                 </td>
-                                                <td class="desc">PR.IP-3: Se encuentran establecidos procesos de control de cambio de la configuración.</td>
+                                                <td class="desc">ID.RA-3: Se identifican y se documentan las amenazas, tanto internas como externas.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -1463,11 +1182,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
+                                                    <span class="block-email">Evaluación de riesgos (ID.RA)</span>
                                                 </td>
-                                                <td class="desc">PR.IP-4: Se realizan, se mantienen y se prueban copias de seguridad de la información.</td>
+                                                <td class="desc">ID.RA-4: Se identifican los impactos y las probabilidades del negocio.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -1507,11 +1226,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
+                                                    <span class="block-email">Evaluación de riesgos (ID.RA)</span>
                                                 </td>
-                                                <td class="desc"> PR.IP-5: Se cumplen las regulaciones y la política con respecto al entorno operativo físico para los activos organizativos.</td>
+                                                <td class="desc">ID.RA-5: Se utilizan las amenazas, las vulnerabilidades, las probabilidades y los impactos para determinar el riesgo.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -1543,54 +1262,6 @@
                                             </tr>
 
                                             </tr>
-
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
-                                                </td>
-                                                <td class="desc">PR.IP-6: Los datos son eliminados de acuerdo con las políticas.</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-
-                                            </tr>
-
-
-
                                             <tr class="spacer"></tr>
                                             <tr class="tr-shadow">                                  
                                             </tr>
@@ -1602,273 +1273,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
+                                                    <span class="block-email">Evaluación de riesgos (ID.RA)</span>
                                                 </td>
-                                                <td class="desc">PR.IP-7: Se mejoran los procesos de protección.</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-
-                                            </tr>
-
-
-
-                                            <tr class="spacer"></tr>
-                                            <tr class="tr-shadow">                                  
-                                            </tr>
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-
-
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
-                                                </td>
-                                                <td class="desc">PR.IP-8: Se comparte la efectividad de las tecnologías de protección.</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-
-                                            </tr>
-
-
-
-                                            <tr class="spacer"></tr>
-                                            <tr class="tr-shadow">                                  
-                                            </tr>
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-
-
-
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
-                                                </td>
-                                                <td class="desc">PR.IP-9: Se encuentran establecidos y se gestionan planes de respuesta (Respuesta a Incidentes y Continuidad del Negocio) y planes de recuperación (Recuperación de Incidentes y Recuperación de Desastres).</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-
-                                            </tr>
-
-
-
-                                            <tr class="spacer"></tr>
-                                            <tr class="tr-shadow">                                  
-                                            </tr>
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-
-
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
-                                                </td>
-                                                <td class="desc">PR.IP-10: Se prueban los planes de respuesta y recuperación.</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-
-                                            </tr>
-
-
-
-                                            <tr class="spacer"></tr>
-                                            <tr class="tr-shadow">                                  
-                                            </tr>
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-
-
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
-                                                </td>
-                                                <td class="desc">PR.IP-11: La seguridad cibernética se encuentra incluida en las prácticas de recursos humanos (por ejemplo, desaprovisionamiento, selección del personal).</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-
-                                            </tr>
-
-
-
-                                            <tr class="spacer"></tr>
-                                            <tr class="tr-shadow">                                  
-                                            </tr>
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-
-
-                                                <td>PROTEGER (PR)</td>
-                                                <td>
-                                                    <span class="block-email">Procesos y procedimientos de protección de la información (PR.IP)</span>
-                                                </td>
-                                                <td class="desc">PR.IP-12: Se desarrolla y se implementa un plan de gestión de las vulnerabilidades.</td>
+                                                <td class="desc">ID.RA-6: Se identifican y priorizan las respuestas al riesgo.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -1930,11 +1339,55 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER ddd(PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Mantenimiento (PR.MA)</span>
+                                                    <span class="block-email">Estrategia de gestión de riesgos (ID.RM)</span>
                                                 </td>
-                                                <td class="desc">PR.MA-1: El mantenimiento y la reparación de los activos de la organización se realizan y están registrados con herramientas aprobadas y controladas.</td>
+                                                <td class="desc">ID.RM-1: Los actores de la organización establecen, gestionan y acuerdan los procesos de gestión de riesgos.</td>
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                       
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                               <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                             
+                                                <td>IDENTIFICAR ID</td>
+                                                <td>
+                                                    <span class="block-email">Estrategia de gestión de riesgos (ID.RM)</span>
+                                                </td>
+                                                <td class="desc">ID.RA-2: La inteligencia de amenazas cibernéticas se recibe de foros y fuentes de intercambio de información.</td>
+                                                
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -1975,13 +1428,12 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER ddd(PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Mantenimiento (PR.MA)</span>
+                                                    <span class="block-email">Estrategia de gestión de riesgos (ID.RM)</span>
                                                 </td>
-                                                <td class="desc">PR.MA-2: El mantenimiento remoto de los activos de la organización se aprueba, se registra y se realiza de manera que evite el acceso no autorizado.</td>
+                                                <td class="desc">ID.RA-3: Se identifican y se documentan las amenazas, tanto internas como externas.</td>
                                                 <td>
-                                                <div class="rs-select2--light rs-select2--md">
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
                                                 <option selected="selected">Rango</option>
@@ -1991,11 +1443,10 @@
                                                 <option value="">3</option>
                                                 <option value="">4</option>
                                             </select>
-                                           
                                             <div class="dropDownSelect2"></div>
                                         </div>
                                         </td>
-                                        <td>
+                                                <td>
                                                     
                                                     <div class="table-data-feature">
                                                     <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
@@ -2007,6 +1458,7 @@
                                                         <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
                                                             <i class="zmdi zmdi-delete"></i>
                                                         </button>
+                                                        
                                                         
                                                     </div>
                                                 </td>                                                
@@ -2046,11 +1498,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Tecnología de protección (PR.PT)</span>
+                                                    <span class="block-email">Gestión del riesgo de la cadena de suministro (ID.SC)</span>
                                                 </td>
-                                                <td class="desc">PR.PT-1: Los registros de auditoría o archivos se determinan, se documentan, se implementan y se revisan en conformidad con la política.</td>
+                                                <td class="desc">ID.SC-1: Los actores de la organización identifican, establecen, evalúan, gestionan y acuerdan los procesos de gestión del riesgo de la cadena de suministro cibernética.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -2089,11 +1541,11 @@
                                                     </label>
                                                 </td>
                                              
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Tecnología de protección (PR.PT)</span>
+                                                    <span class="block-email">Gestión del riesgo de la cadena de suministro (ID.SC)</span>
                                                 </td>
-                                                <td class="desc">PR.PT-2: Los medios extraíbles están protegidos y su uso se encuentra restringido de acuerdo con la política.</td>
+                                                <td class="desc"> ID.SC-2: Los proveedores y socios externos de los sistemas de información, componentes y servicios se identifican, se priorizan y se evalúan mediante un proceso de evaluación de riesgos de la cadena de suministro cibernético.</td>
                                                 
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
@@ -2125,10 +1577,8 @@
                                                 </td>                                                
                                             </tr>
                                             <tr class="spacer"></tr>
-                                            <tr class="tr-shadow"></tr>
-                                             
-                                            
-                                            
+                                            <tr class="tr-shadow">
+                                               
 
                                             <tr class="tr-shadow">
                                                 <td>
@@ -2137,11 +1587,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Tecnología de protección (PR.PT)</span>
+                                                    <span class="block-email">Gestión del riesgo de la cadena de suministro (ID.SC)</span>
                                                 </td>
-                                                <td class="desc">PR.PT-3: Se incorpora el principio de menor funcionalidad mediante la configuración de los sistemas para proporcionar solo las capacidades esenciales.</td>
+                                                <td class="desc">ID.SC-3: Los contratos con proveedores y socios externos se utilizan para implementar medidas apropiadas diseñadas para cumplir con los objetivos del programa de seguridad cibernética de una organización y el plan de gestión de riesgos de la cadena de suministro cibernético.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -2171,7 +1621,7 @@
                                                     </div>
                                                 </td>                                                
                                             </tr>
-                                            <tr class="spacer"></tr>
+
                                             <tr class="tr-shadow">
                                                 <td>
                                                     <label class="au-checkbox">
@@ -2179,11 +1629,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Tecnología de protección (PR.PT)</span>
+                                                    <span class="block-email">Gestión del riesgo de la cadena de suministro (ID.SC)</span>
                                                 </td>
-                                                <td class="desc">PR.PT-4: Las redes de comunicaciones y control están protegidas.</td>
+                                                <td class="desc">ID.SC-4: Los proveedores y los socios externos se evalúan de forma rutinaria mediante auditorías, resultados de pruebas u otras formas de evaluación para confirmar que cumplen con sus obligaciones contractuales.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -2213,7 +1663,9 @@
                                                     </div>
                                                 </td>                                                
                                             </tr>
-                                            <tr class="spacer"></tr>
+
+
+
                                             <tr class="tr-shadow">
                                                 <td>
                                                     <label class="au-checkbox">
@@ -2221,11 +1673,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>PROTEGER (PR)</td>
+                                                <td>IDENTIFICAR ID</td>
                                                 <td>
-                                                    <span class="block-email">Tecnología de protección (PR.PT)</span>
+                                                    <span class="block-email">Gestión del riesgo de la cadena de suministro (ID.SC)</span>
                                                 </td>
-                                                <td class="desc">PR.PT-5: Se implementan mecanismos (por ejemplo, a prueba de fallas, equilibrio de carga, cambio en caliente o “hot swap”) para lograr los requisitos de resiliencia en situaciones normales y adversas.</td>
+                                                <td class="desc">ID.SC-5: Las pruebas y la planificación de respuesta y recuperación se llevan a cabo con proveedores.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -2242,7 +1694,7 @@
                                                 <td>
                                                     
                                                     <div class="table-data-feature">
-                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
                                                             <i class="zmdi zmdi-mail-send"></i>
                                                         </button>
                                                         <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">

@@ -37,7 +37,7 @@
 
 <body class="animsition">
     <div class="page-wrapper">
-    
+      
 
         <!-- MENU SIDEBAR-->
         <aside class="menu-sidebar d-none d-lg-block">
@@ -51,28 +51,30 @@
             <div class="menu-sidebar__content js-scrollbar1">
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
-                     <li>
+                    <li>
                             <a href="chart.html">
                                 <i class="fas fa-chart-bar"></i>HOMEISO-IT</a>
-                         </li>
-                          <li class="has-sub">
+                        </li>
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>iSO 27032</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="activos1.blade.php">IDENTIFICACION</a>
+                                
+                                    <a href="{{ url('/identificarnuevo') }}">IDENTIFICAR</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">PROTECION</a>
+                                    <a href="{{ url('/proteger8') }}">PROTEGER</a>
+                                </li>
+
+                                <li>
+                                      <a href="{{ url('/detectar') }}">DETECTAR</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">DETECCION</a>
+                                     <a href="{{ url('/responder') }}">RESPONDER</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">RESPUESTA</a>
-                                </li>
-                                <li>
-                                    <a href="index4.html">RECUPERACION</a>
+                                     <a href="{{ url('/recuperar') }}">RECUPERAR</a>
                                 </li>
                             </ul>
                         </li>
@@ -82,14 +84,7 @@
                                 <i class="fas fa-table"></i>EMPRESA</a>
                         </li>
                         
-                        <li>
-                            <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
-                        <li>
-                            <a href="map.html">
-                                <i class="fas fa-map-marker-alt"></i>Maps</a>
-                        </li>
+                        
                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-copy"></i>REGISTRO USUARIOS</a>
@@ -109,22 +104,23 @@
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>INFORME EVALUACION</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
-                                    <!--<a href="index.html">IDENTIFICACION</a>-->
-                                    <a href="{{ url('/identificar') }}">Identificar</a>
-                                </li>
-                                <li>
-                                    <a href="index2.html">PROTECION</a>
-                                </li>
-                                <li>
-                                    <a href="index3.html">DETECCION</a>
-                                </li>
-                                <li>
-                                    <a href="index4.html">RESPUESTA</a>
-                                </li>
-                                <li>
-                                    <a href="index4.html">RECUPERACION</a>
-                                </li>
+                            <li>
+                                
+                                <a href="{{ url('/identificarnuevo') }}">IDENTIFICAR</a>
+                            </li>
+                            <li>
+                                <a href="{{ url('/proteger8') }}">PROTEGER</a>
+                            </li>
+
+                            <li>
+                                  <a href="{{ url('/detectar8') }}">DETECTAR</a>
+                            </li>
+                            <li>
+                                 <a href="{{ url('/responder') }}">RESPONDER</a>
+                            </li>
+                            <li>
+                                 <a href="{{ url('/recuperar') }}">RECUPERAR</a>
+                            </li>
                             </ul>
                         </li>
                         
@@ -221,28 +217,27 @@
             
 
             <!-- MAIN CONTENT-->
+
             
-            <div class="main-content">
-                <div class="section__content section__content--p30">
+            
+     <div class="main-content">
+        <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-16">
                                 <div class="table-responsive table--no-card m-b-30">
-                              
-                                 <h3 class="title-5 m-b-35">ISO 27032 -> IDENTIFICAR  </h3>
+         
 
-                                
-                                    
-
-
-                                
-								    <div class="card">
-									        <div   div class="card-header">
-										        
-
-                                                <div class="table-data__tool">
-                                                <div class="table-data__tool-left"></div>
-                                            <div class="table-data__tool-right">
+                                <div class="table-data__tool">
+                                    <div class="table-data__tool-left">
+                                        <div class="rs-select2--light rs-select2--md">
+                                           
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                       
+                                        
+                                    </div>
+                                    <div class="table-data__tool-right">
                                         <button class="au-btn au-btn-icon au-btn--green au-btn--small">
                                             <i class="zmdi zmdi-plus"></i>Agregar item</button>
                                         <div class="rs-select2--dark rs-select2--sm rs-select2--dark2">
@@ -255,34 +250,51 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="table-responsive table-responsive-data2">
-                                    <table class="table table-data2">
-   							    </div>
-									    <div class="card-body">
-										    <p class="text-muted m-b-15"></p>
 
-										    <ul class="nav nav-tabs" id="myTab" role="tablist">
-											    <li class="nav-item">
-												<a class="nav-link active" id="home-tab" data-toggle="tab" href="#identificar1" role="tab" aria-controls="home" aria-selected="true">Activos</a>
-											    </li>
-											    <li class="nav-item">
-												<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">gestion</a>
-											    </li>
-											    <li class="nav-item">
-												<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Menu 2</a>
-											    </li>
-										    </ul>
-										<div class="tab-content pl-3 p-1" id="myTabContent">
-											<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-												
+
+                                <div class="row">
+				
+					<div class="card">
+                       <tr class="tr-shadow">
+                    	<div class="card-header">
+								<h4>ISO 27032 -> RESPONDER </h4>
+                       </tr>
+							</div>
+            
+                            <div class="card-body" >
+									<div class="default-tab" >
+                                    
+										<nav>
+                                       
+											<div class="nav nav-pills mb-3" id="nav-tab" role="tablist">
+													<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+													 aria-selected="true">Planificación de la Respuesta (RS.RP)</a>
+													<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+													 aria-selected="false">Comunicaciones (RS.CO)</a>
+													<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact"
+													 aria-selected="false">Análisis (RS.AN)</a>
+                                                     <a class="nav-item nav-link" id="nav-contact1-tab" data-toggle="tab" href="#nav-contact1" role="tab" aria-controls="nav-contact1"
+													 aria-selected="false">Mitigación (RS.MI)</a>
+                                                     <a class="nav-item nav-link" id="nav-contact2-tab" data-toggle="tab" href="#nav-contact2" role="tab" aria-controls="nav-contact2"
+													 aria-selected="false">Mejoras (RS.IM)</a>
+                                                    <!-- <a class="nav-item nav-link" id="nav-contact3-tab" data-toggle="tab" href="#nav-contact3" role="tab" aria-controls="nav-contact3"
+													 aria-selected="false">Gestión del riesgo de suministro (ID.SC)</a>-->
 											</div>
-											<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-												<h3>gestion1</h3>
-												<p><div class="table-responsive table-responsive-data2">
-                                    <table class="table table-data2">
-                                        <thead>
-                                            <tr>
-                                                <th>
+											</nav>
+                                          
+											<div class="tab-content pl-3 pt-2" id="nav-tabContent">
+												<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+													<p> <div class="table-responsive table-responsive-data2">
+                                                     <div class="card"></div>
+                                                    <table class="table table-data2">
+                                                    <tr class="spacer"></tr>
+                                                      <thead>
+                                                       <tr>
+                                                         <div class="table-responsive table-responsive-data2">
+                                                          <table class="table table-data2">
+                                                      <thead>
+                                                <tr>
+                                                  <th>
                                                     <label class="au-checkbox">
                                                         <input type="checkbox">
                                                         <span class="au-checkmark"></span>
@@ -303,100 +315,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>IDENTIFICAR ID</td>
+                                                <td>RESPONDER (RS)</td>
                                                 <td>
-                                                    <span class="block-email">Estrategia de gestión de riesgos (ID.RM)</span>
+                                                    <span class="block-email">Planificación de la Respuesta (RS.RP)</span>
                                                 </td>
-                                                <td class="desc">ID.RM-1: Los actores de la organización establecen, gestionan y acuerdan los procesos de gestión de riesgos.</td>
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-                                            <tr class="spacer"></tr>
-                                            <tr class="tr-shadow">
-                                               <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                             
-                                                <td>IDENTIFICAR ID</td>
-                                                <td>
-                                                    <span class="block-email">Estrategia de gestión de riesgos (ID.RM)</span>
-                                                </td>
-                                                <td class="desc">ID.RA-2: La inteligencia de amenazas cibernéticas se recibe de foros y fuentes de intercambio de información.</td>
-                                                
-                                                <td>
-                                                <div class="rs-select2--light rs-select2--md">
-                                            <select class="js-select2" name="property">
-                                                <option selected="selected">Rango</option>
-                                                <option value="">0</option>
-                                                <option value="">1</option>
-                                                <option value="">2</option>
-                                                <option value="">3</option>
-                                                <option value="">4</option>
-                                            </select>
-                                            <div class="dropDownSelect2"></div>
-                                        </div>
-                                        </td>
-                                                <td>
-                                                    
-                                                    <div class="table-data-feature">
-                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
-                                                            <i class="zmdi zmdi-mail-send"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
-                                                            <i class="zmdi zmdi-edit"></i>
-                                                        </button>
-                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
-                                                            <i class="zmdi zmdi-delete"></i>
-                                                        </button>
-                                                       
-                                                    </div>
-                                                </td>                                                
-                                            </tr>
-                                            <tr class="spacer"></tr>
-                                            <tr class="tr-shadow">
-                                               
-
-                                            <tr class="tr-shadow">
-                                                <td>
-                                                    <label class="au-checkbox">
-                                                        <input type="checkbox">
-                                                        <span class="au-checkmark"></span>
-                                                    </label>
-                                                </td>
-                                                <td>IDENTIFICAR ID</td>
-                                                <td>
-                                                    <span class="block-email">Estrategia de gestión de riesgos (ID.RM)</span>
-                                                </td>
-                                                <td class="desc">ID.RA-3: Se identifican y se documentan las amenazas, tanto internas como externas.</td>
+                                                <td class="desc">RS.RP-1: El plan de respuesta se ejecuta durante o después de un incidente.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -426,28 +349,19 @@
                                                     </div>
                                                 </td>                                                
                                             </tr>
-
-                                            
-                                </div></p>
-											</div>
-											<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-												<h3>Menu 2</h3>
-												<p>Some content here.</p>
-											</div>
-										</div>
-
-
-									</div>
-								
-							
-
-
-                     
-                                        
-                                </div>
-                                    
-                                </div>
-                                <div class="table-responsive table-responsive-data2">
+                                       
+                                    </table>
+                                </div>      
+                             
+                               </p>
+								</div>
+												
+                                
+                                
+                                <tr class="spacer"></tr>
+                                
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+										<p> <div class="table-responsive table-responsive-data2">
                                     <table class="table table-data2">
                                         <thead>
                                             <tr>
@@ -471,18 +385,21 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            
+                                            <tr class="spacer"></tr>
                                             <tr class="tr-shadow">
-                                                <td>
+                                               <td>
                                                     <label class="au-checkbox">
                                                         <input type="checkbox">
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>IDENTIFICAR ID</td>
+                                             
+                                                <td>RESPONDER (RS)</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
+                                                    <span class="block-email">Comunicaciones (RS.CO)</span>
                                                 </td>
-                                                <td class="desc">ID.AM-1: Los dispositivos y sistemas físicos dentro de la organización están inventariados.</td>
+                                                <td class="desc">RS.CO-1: El personal conoce sus roles y el orden de las operaciones cuando se necesita una respuesta.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -521,11 +438,11 @@
                                                     </label>
                                                 </td>
                                              
-                                                <td>IDENTIFICAR ID</td>
+                                                <td>RESPONDER (RS)</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
+                                                    <span class="block-email">Comunicaciones (RS.CO)</span>
                                                 </td>
-                                                <td class="desc">ID.AM-2: Las plataformas de software y las aplicaciones dentro de la organización están inventariadas.</td>
+                                                <td class="desc">RS.CO-2: Los incidentes se informan de acuerdo con los criterios establecidos.</td>
                                                 
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
@@ -567,11 +484,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>IDENTIFICAR ID</td>
+                                                <td>RESPONDER (RS)</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
+                                                    <span class="block-email">Comunicaciones (RS.CO)</span>
                                                 </td>
-                                                <td class="desc">ID.AM-3: La comunicación organizacional y los flujos de datos están mapeados.</td>
+                                                <td class="desc">RS.CO-3: La información se comparte de acuerdo con los planes de respuesta.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -609,11 +526,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>IDENTIFICAR ID</td>
+                                                <td>RESPONDER (RS)</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
+                                                    <span class="block-email">Comunicaciones (RS.CO)</span>
                                                 </td>
-                                                <td class="desc">ID.AM-4: Los sistemas de información externos están catalogados.</td>
+                                                <td class="desc">RS.CO-4: La coordinación con las partes interesadas se realiza en consonancia con los planes de respuesta.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -653,11 +570,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>IDENTIFICAR ID</td>
+                                                <td>RESPONDER (RS)</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
+                                                    <span class="block-email">Comunicaciones (RS.CO)</span>
                                                 </td>
-                                                <td class="desc">ID.AM-5: Los recursos (por ejemplo, hardware, dispositivos, datos, tiempo, personal y software) se priorizan en función de su clasificación, criticidad y valor comercial.</td>
+                                                <td class="desc">RS.CO-5: El intercambio voluntario de información se produce con las partes interesadas externas para lograr una mayor conciencia situacional de seguridad cibernética.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -692,6 +609,117 @@
                                             <tr class="spacer"></tr>
                                             <tr class="tr-shadow">                                  
                                             </tr>
+                                       
+                                    </table>
+                                </div></p>
+												</div>
+												<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+													<p> <div class="table-responsive table-responsive-data2">
+                                    <table class="table table-data2">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </th>
+                                                <th>Nombre</th>
+                                                <th>Categoria</th>
+                                                <th>Subcategoria</th>
+                                                <th>Evaluacion</th>
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>RESPONDER (RS)</td>
+                                                <td>
+                                                    <span class="block-email">Análisis (RS.AN)</span>
+                                                </td>
+                                                <td class="desc">RS.AN-1: sSe investigan las notificaciones de los sistemas de detección.</td>
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                       
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                               <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                             
+                                                <td>RESPONDER (RS)</td>
+                                                <td>
+                                                    <span class="block-email">Análisis (RS.AN)</span>
+                                                </td>
+                                                <td class="desc">RS.AN-2: Se comprende el impacto del incidente.</td>
+                                                
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                       
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                               
 
                                             <tr class="tr-shadow">
                                                 <td>
@@ -700,11 +728,11 @@
                                                         <span class="au-checkmark"></span>
                                                     </label>
                                                 </td>
-                                                <td>IDENTIFICAR ID</td>
+                                                <td>RESPONDER (RS)</td>
                                                 <td>
-                                                    <span class="block-email">Gestión de activos (ID.AM)</span>
+                                                    <span class="block-email">Análisis (RS.AN)</span>
                                                 </td>
-                                                <td class="desc">ID.AM-6: Los roles y las responsabilidades de la seguridad cibernética para toda la fuerza de trabajo y terceros interesados</td>
+                                                <td class="desc">RS.AN-3: Se realizan análisis forenses.</td>
                                                 <td>
                                                 <div class="rs-select2--light rs-select2--md">
                                             <select class="js-select2" name="property">
@@ -734,9 +762,366 @@
                                                     </div>
                                                 </td>                                                
                                             </tr>
-                                       
+
+                                            <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>RESPONDER (RS)</td>
+                                                <td>
+                                                    <span class="block-email">Análisis (RS.AN)</span>
+                                                </td>
+                                                <td class="desc">RS.AN-4: Los incidentes se clasifican de acuerdo con los planes de respuesta.</td>
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                        
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+
+
+
+                                            <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>RESPONDER (RS)</td>
+                                                <td>
+                                                    <span class="block-email">Análisis (RS.AN)</span>
+                                                </td>
+                                                <td class="desc">RS.AN-5: Se establecen procesos para recibir, analizar y responder a las vulnerabilidades divulgadas a la organización desde fuentes internas y externas (por ejemplo, pruebas internas, boletines de seguridad o investigadores de seguridad).</td>
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                        
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+                                        
+                                            
                                     </table>
+                                </div></p>
+
+
+
+
                                 </div>
+												<div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact1-tab">
+													<p> <div class="table-responsive table-responsive-data2">
+                                    <table class="table table-data2">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </th>
+                                                <th>Nombre</th>
+                                                <th>Categoria</th>
+                                                <th>Subcategoria</th>
+                                                <th>Evaluacion</th>
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>RESPONDER (RS)</td>
+                                                <td>
+                                                    <span class="block-email">Mitigación (RS.MI)</span>
+                                                </td>
+                                                <td class="desc">RS.MI-1: Los incidentes son contenidos.</td>
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                       
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                               <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                             
+                                                <td>RESPONDER (RS)</td>
+                                                <td>
+                                                    <span class="block-email">Mitigación (RS.MI)</span>
+                                                </td>
+                                                <td class="desc">RS.MI-2: Los incidentes son mitigados.</td>
+                                                
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                       
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                               
+
+                                            <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>RESPONDER (RS)</td>
+                                                <td>
+                                                    <span class="block-email">Mitigación (RS.MI)</span>
+                                                </td>
+                                                <td class="desc">RS.MI-3: Las vulnerabilidades recientemente identificadas son mitigadas o se documentan como riesgos aceptados.</td>
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+                                        
+                                            
+                                    </table>
+                                </div></p>
+
+
+                                </div>
+												<div class="tab-pane fade" id="nav-contact2" role="tabpanel" aria-labelledby="nav-contact2-tab">
+													<p> <div class="table-responsive table-responsive-data2">
+                                    <table class="table table-data2">
+                                        <thead>
+                                            <tr>
+                                                <th>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </th>
+                                                <th>Nombre</th>
+                                                <th>Categoria</th>
+                                                <th>Subcategoria</th>
+                                                <th>Evaluacion</th>
+                                                
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="tr-shadow">
+                                                <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                                <td>RESPONDER (RS)</td>
+                                                <td>
+                                                    <span class="block-email">Mejoras (RS.IM)</span>
+                                                </td>
+                                                <td class="desc">RS.IM-1: Los planes de respuesta incorporan las lecciones aprendidas.</td>
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                       
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+                                            <tr class="spacer"></tr>
+                                            <tr class="tr-shadow">
+                                               <td>
+                                                    <label class="au-checkbox">
+                                                        <input type="checkbox">
+                                                        <span class="au-checkmark"></span>
+                                                    </label>
+                                                </td>
+                                             
+                                                <td>RESPONDER (RS)</td>
+                                                <td>
+                                                    <span class="block-email">Mejoras (RS.IM)</span>
+                                                </td>
+                                                <td class="desc">RS.IM-2: Se actualizan las estrategias de respuesta.</td>
+                                                
+                                                <td>
+                                                <div class="rs-select2--light rs-select2--md">
+                                            <select class="js-select2" name="property">
+                                                <option selected="selected">Rango</option>
+                                                <option value="">0</option>
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                            <div class="dropDownSelect2"></div>
+                                        </div>
+                                        </td>
+                                                <td>
+                                                    
+                                                    <div class="table-data-feature">
+                                                    <button class="item" data-toggle="tooltip" data-placement="top" title="Enviar">
+                                                            <i class="zmdi zmdi-mail-send"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Editar">
+                                                            <i class="zmdi zmdi-edit"></i>
+                                                        </button>
+                                                        <button class="item" data-toggle="tooltip" data-placement="top" title="Borrar">
+                                                            <i class="zmdi zmdi-delete"></i>
+                                                        </button>
+                                                        
+                                                    </div>
+                                                </td>                                                
+                                            </tr>
+                                        
+                                            
+                                    </table>
+                                </div></p>
+
+                               
                                 <!-- END DATA TABLE -->
                             </div>
                         </div>
@@ -750,7 +1135,7 @@
                 </div>
             </div>
         </div>
-
+      </div>
     </div>
 
     <!-- Jquery JS-->

@@ -116,7 +116,7 @@
                                   <a href="{{ url('/detectar8') }}">DETECTAR</a>
                             </li>
                             <li>
-                                 <a href="{{ url('/responder') }}">RESPONDER</a>
+                                 <a href="{{ url('/responder8') }}">RESPONDER</a>
                             </li>
                             <li>
                                  <a href="{{ url('/recuperar') }}">RECUPERAR</a>

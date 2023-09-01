@@ -253,17 +253,21 @@
 										<p class="muted">Haga una lista de todos los equipos, programas software y datos que use, incluyendo computadoras portátiles, teléfonos inteligentes, tablets y dispositivos utilizados en puntos de venta.
 											</p>
 										<div class="progress mb-2">
-											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25"
-											 aria-valuemin="0" aria-valuemax="100">25%</div>
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="1"
+											 aria-valuemin="0" aria-valuemax="100">1%</div>
+										</div>
+                                        <div class="progress mb-2">
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="1"
+											 aria-valuemin="0" aria-valuemax="100">1%</div>
 										</div>
 										
 										<div class="progress mb-2">
-											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
-											 aria-valuemin="0" aria-valuemax="100">75%</div>
+											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="1"
+											 aria-valuemin="0" aria-valuemax="100">0%</div>
 										</div>
 										<div class="progress mb-2">
-											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
-											 aria-valuemin="0" aria-valuemax="100">90%</div>
+											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 13%" aria-valuenow="13"
+											 aria-valuemin="0" aria-valuemax="100">13,7%</div>
 										</div>
 									</div>
 								</div>
@@ -282,17 +286,20 @@
 										<p class="muted">Controle quiénes acceden a su red y usan sus computadoras y otros dispositivos.
 										</p>
 										<div class="progress mb-2">
-											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25"
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="25"
 											 aria-valuemin="0" aria-valuemax="100">5%</div>
 										</div>
-										
 										<div class="progress mb-2">
-											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">5%</div>
+										</div>
+										<div class="progress mb-2">
+											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="75"
 											 aria-valuemin="0" aria-valuemax="100">15%</div>
 										</div>
 										<div class="progress mb-2">
-											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
-											 aria-valuemin="0" aria-valuemax="100">80%</div>
+											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 7.5%" aria-valuenow="90"
+											 aria-valuemin="0" aria-valuemax="100">7.5%</div>
 										</div>
 									</div>
 								</div>
@@ -311,17 +318,21 @@
 										<p class="muted">Monitoree sus computadoras para controlar si detecta acceso de personal no autorizado a sus computadoras, dispositivos (soportes de almacenamiento de datos de tipo USB) y software.
 											</p>
 										<div class="progress mb-2">
-											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25"
-											 aria-valuemin="0" aria-valuemax="100">25%</div>
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">0%</div>
+										</div>
+                                        <div class="progress mb-2">
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">0%</div>
 										</div>
 										
 										<div class="progress mb-2">
-											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
-											 aria-valuemin="0" aria-valuemax="100">75%</div>
+											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="75"
+											 aria-valuemin="0" aria-valuemax="100">0%</div>
 										</div>
 										<div class="progress mb-2">
-											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
-											 aria-valuemin="0" aria-valuemax="100">90%</div>
+											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 2.2%" aria-valuenow="90"
+											 aria-valuemin="0" aria-valuemax="100">2.2%</div>
 										</div>
 									</div>
 								</div>
@@ -344,17 +355,21 @@
 										<p class="muted">Notificar a los clientes, empleados y otros cuyos datos pudieran estar en riesgo.
 											</p>
 										<div class="progress mb-2">
-											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25"
-											 aria-valuemin="0" aria-valuemax="100">25%</div>
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">0%</div>
+										</div>
+                                        <div class="progress mb-2">
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">0%</div>
 										</div>
 										
 										<div class="progress mb-2">
-											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
-											 aria-valuemin="0" aria-valuemax="100">75%</div>
+											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="75"
+											 aria-valuemin="0" aria-valuemax="100">0%</div>
 										</div>
 										<div class="progress mb-2">
-											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
-											 aria-valuemin="0" aria-valuemax="100">90%</div>
+											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 2.5%" aria-valuenow="90"
+											 aria-valuemin="0" aria-valuemax="100">2.5%</div>
 										</div>
 									</div>
 								</div>
@@ -372,17 +387,21 @@
 										<p class="muted">Repare y restaure los equipos y las partes de su red que resultaron afectados.
 											</p>
 										<div class="progress mb-2">
-											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%" aria-valuenow="25"
-											 aria-valuemin="0" aria-valuemax="100">25%</div>
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">0%</div>
+										</div>
+                                        <div class="progress mb-2">
+											<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="25"
+											 aria-valuemin="0" aria-valuemax="100">0%</div>
 										</div>
 										
 										<div class="progress mb-2">
-											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%" aria-valuenow="75"
-											 aria-valuemin="0" aria-valuemax="100">75%</div>
+											<div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%" aria-valuenow="75"
+											 aria-valuemin="0" aria-valuemax="100">0%</div>
 										</div>
 										<div class="progress mb-2">
-											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
-											 aria-valuemin="0" aria-valuemax="100">90%</div>
+											<div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar" style="width: 3.3%" aria-valuenow="90"
+											 aria-valuemin="0" aria-valuemax="100">3.3%</div>
 										</div>
 									</div>
 								</div>
