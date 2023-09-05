@@ -68,15 +68,15 @@
                                 <i class="fas fa-tachometer-alt"></i>iSO 27032</a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                
-                                    <a href="{{ url('/identificarnuevo') }}">IDENTIFICAR</a>
+                                <a href="{{ url('/identificar') }}">IDENTIFICAR</a>
+                                    
                                 </li>
                                 <li>
-                                    <a href="{{ url('/proteger8') }}">PROTEGER</a>
+                                    <a href="{{ url('/proteger') }}">PROTEGER</a>
                                 </li>
 
                                 <li>
-                                  <a href="{{ url('/detectar8') }}">DETECTAR</a>
+                                  <a href="{{ url('/detecter') }}">DETECTAR</a>
                             </li>
                                 <li>
                                      <a href="{{ url('/responder') }}">RESPONDER</a>
@@ -110,7 +110,7 @@
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                             <li>
                                 
-                                <a href="{{ url('/identificarnuevo') }}">IDENTIFICAR</a>
+                                <a href="{{ url('/identificar') }}">IDENTIFICAR</a>
                             </li>
                             <li>
                                 <a href="{{ url('/proteger8') }}">PROTEGER</a>
@@ -124,6 +124,9 @@
                             </li>
                             <li>
                                  <a href="{{ url('/recuperar') }}">RECUPERAR</a>
+                            </li>
+                            <li>
+                                 <a href="{{ url('/informegeneral') }}">INFORME GENERAL</a>
                             </li>
                             </ul>
                         </li>
@@ -141,14 +144,10 @@
                                     <a href="badge.html">contactenos</a>
                                 </li>
                                 <li>
-                                    <a href="tab.html">Tabs</a>
+                                    <a href="tab.html">Manual</a>
                                 </li>
-                                <li>
-                                    <a href="card.html">Cards</a>
-                                </li>
-                                <li>
-                                    <a href="alert.html">Alerts</a>
-                                </li>
+                               
+                               
                               
                             </ul>
                         </li>
@@ -268,21 +267,15 @@
                       <span class="badge badge-light"></span>
                     </button>
                   </div>
-                </div>
 
                 <div class="card">
                   <div class="card-header">
-                    <strong>Labels</strong>
+                  <img src="images/icon/iso27032.jpg" alt="John Doe" />
+                    
                   </div>
-                  <small>
-                    <div class="card-header">
-                    <strong>CASA ISO 27032</strong>
-                  </div>
-                      <img src="images/icon/logo.png" alt="John Doe" />
-                      
-                    </small>
+                
                   
-                </div>
+                
 
               </div>
             </div>
