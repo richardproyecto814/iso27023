@@ -49,6 +49,7 @@
                         <div class="login-form">
                             <form action="/login" method="post">
                                 @csrf
+                                @include('layout.partials.messages')
                                 <div class="form-group">
                                     <label>Correo electrónico/Cedula  </label>
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
@@ -76,7 +77,7 @@
                             <div class="register-link">
                                 <p>
                                 ¿No tienes cuenta? 
-                                    <a href="#"> Registrate aquí</a>
+                                    <a href="/register"> Registrate aquí</a>
                                 </p>
                             </div>
                         </div>
