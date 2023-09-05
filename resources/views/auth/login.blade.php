@@ -47,9 +47,10 @@
                             </a>
                         </div>
                         <div class="login-form">
-                            <form action="" method="post">
+                            <form action="/login" method="post">
+                                @csrf
                                 <div class="form-group">
-                                    <label>Correo electrónico  </label>
+                                    <label>Correo electrónico/Cedula  </label>
                                     <input class="au-input au-input--full" type="email" name="email" placeholder="Email">
                                 </div>
                                 <div class="form-group">
