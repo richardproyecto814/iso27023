@@ -396,7 +396,7 @@
 										
 										@auth
 										<div class="content">
-											<a class="js-acc-btn" href="#">{{dump(user)}}</a>
+											<a class="js-acc-btn" href="#"></a>
 										</div>
 										@endauth
 										<div class="account-dropdown js-dropdown">
