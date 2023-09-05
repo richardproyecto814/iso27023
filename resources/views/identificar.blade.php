@@ -61,7 +61,7 @@
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
                                 
-                                    <a href="{{ url('/identificarnuevo') }}">IDENTIFICAR</a>
+                                    <a href="{{ url('/identificar') }}">IDENTIFICAR</a>
                                 </li>
                                 <li>
                                     <a href="{{ url('/proteger8') }}">PROTEGER</a>
